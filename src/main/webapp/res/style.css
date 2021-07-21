@@ -1,0 +1,187 @@
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 120%;
+    padding: 5px 0;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    color: #a80000;
+
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+
+a:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 25px rgb(255,255,255);
+}
+
+a:active {
+    background: linear-gradient(1deg, rgb(255, 255, 255), rgba(210, 210, 210, 0.9));
+}
+
+.link a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.heading {
+    text-shadow: 2px 2px 5px #7F7F7F;
+    color: #e7f6ff;
+    font-size: 30px;
+}
+
+.style {
+    border-spacing: 0 12px;
+    font:  bold 100% Georgia, serif;
+    margin: 20px auto;
+    text-shadow: 1px 1px 1px #7F7F7F;
+    background: #0000;
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+}
+
+.style th {
+    color: white;
+    background: rgba(0, 5, 25, 0.75);
+    padding: 10px;
+    font-size: 130%;
+    border-top: 1px solid #efeaea;
+    border-bottom: 1px solid #efeaea;
+    width: 1%;
+}
+
+.style td {
+    width: 1%;
+    padding: 5px;
+}
+
+.style tr {
+    height: 50px;
+    box-shadow: 0 0 5px rgb(15,15,45);
+}
+
+
+.style tr:nth-child(even) {
+    background: linear-gradient(1deg, rgb(180, 210, 255), rgba(255, 255, 255, 0.9));
+}
+
+.style tr:nth-child(odd) {
+    background: linear-gradient(1deg, rgb(205, 230, 255), rgba(255, 255, 255, 0.9));
+}
+
+.style input  {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: linear-gradient(1deg, rgb(205, 230, 255), rgba(255, 255, 255, 0.9));
+    outline: none;
+    height: 30px;
+    width: 250px;
+    font:  bold 20px Georgia, serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px #7F7F7F;
+    box-shadow: 2px 2px 15px rgb(15,15,45);
+    margin-left: 10px;
+}
+
+.style select {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: linear-gradient(1deg, rgb(205, 230, 255), rgba(255, 255, 255, 0.9));
+    outline: none;
+    height: 30px;
+    width: 250px;
+    font:  bold 20px Georgia, serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px #7F7F7F;
+    box-shadow: 2px 2px 15px rgb(15,15,45);
+    margin-left: 10px;
+    justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    display: none;
+}
+
+input:hover {
+    box-shadow: 0 0 25px rgb(155,155,155);
+}
+
+input:focus {
+    box-shadow: 0 0 25px rgb(255,255,255);
+}
+
+.left-side {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.right-side {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.title {
+    text-align: left;
+    font-size: 130%;
+}
+
+.field {
+    margin: 5px;
+    display: flex;
+}
+
+.addForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.personField{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+.insuranceField{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+.carField{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 100px;
+
+}
+
+.firstLine{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.secondLine{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addButton{
+    height: 60px;
+    width: 300px;
+    outline-color: black;
+    background-color: #CDE6FFFF;
+    border-radius: 5px;
+    font:  bold 100% Georgia, serif;
+}
